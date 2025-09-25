@@ -1,46 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+	margin: 0;
+	padding: 0;
+}
+
 body {
-	background-color: #662573;
-	background-color: #310839;
-	color: white;
+	display: flex;
+	justify-content: center;
+	background: radial-gradient(#662573, #310839);
+	margin: 22px;
+	font-family: "Poppins";
+}
+
+main {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	gap: 18px;
+	background: linear-gradient(#13124d, #532f7f);
+	border: 6px solid #946bbd;
+	border-radius: 24px;
+	padding-top: 48px;
+	padding-right: 24px;
+	padding-bottom: 24px;
+	padding-left: 24px;
+	color: #fff;
+}
+main:hover {
+	box-shadow: 6px 0px 50px 0px #662573;
+	border: solid 6px #b17ee3;
 }
 
-.card {
-	background-color: #13124d;
-	background-color: #532f7f;
-	border: solid 6px #946bbd;
-	border-radius: 15px;
-	width: max-content;
-	padding: 12px;
+h1 {
+	font-weight: 700;
+	font-size: 36px;
 }
-
 h2 {
+	font-weight: 700;
+	font-size: 24px;
+}
+.button {
+	padding: 15px;
 	text-align: center;
+	background-color: #de9f29;
+	border-radius: 4px;
+	font-weight: 700;
+	font-size: 24px;
 }
 
-.jaka {
-	text-align: center;
-}
-
-.image1 {
+.player {
 	display: flex;
 	flex-direction: row;
 	justify-content: start;
 	align-items: row;
+	gap: 52px;
 }
 
-.image2 {
+.rank {
 	display: flex;
 	flex-direction: row;
+	gap: 6px;
+	align-items: center;
+}
+
+.p1 {
+	font-weight: 700;
+	font-size: 16px;
+}
+
+.p21 {
+	font-weight: 700;
+	font-size: 16px;
+}
+
+.progress {
+	width: 95%;
+	padding: 7px;
+	background-color: #13124d;
+	border-radius: 9999px;
+}
+
+.progress1 {
+	display: flex;
 	justify-content: center;
-	align-items: row;
-}
-
-.image3 {
-	display: flex;
-	flex-direction: row;
-	justify-content: end;
-	align-items: row;
+	width: 52%;
+	background-color: #ffffff;
+	border-radius: 9999px;
+	font-weight: bold;
+	color: #14134d;
 }
